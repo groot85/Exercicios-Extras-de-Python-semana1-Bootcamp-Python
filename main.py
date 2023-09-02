@@ -53,7 +53,7 @@ nome_moeda = ["Dólar Americano",
 
 for i in range (len(valor_moeda)): #carteira menor que valor
  print ("{value:.2f}".format(value=(valor_em_real / valor_moeda [i]) * carteira) , nome_moeda [i], valor_moeda [i]) #formatacao 
-  print (f'{value:.2f}'(valor_em_real / valor_moeda [i]) * carteira) , nome_moeda [i], valor_moeda [i])
+ print (f'{(valor_em_real / valor_moeda [i]) * carteira: .2f}' , nome_moeda [i], valor_moeda [i]) #formatacao abreviada value: e o .2f dois é a quantidade de casas decimais que quero que meu numeral tenha 
 
 # print ("O valor informado em sua carteira pode comprar:" + '\n' , cambio )
 
